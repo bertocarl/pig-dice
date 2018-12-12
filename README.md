@@ -38,4 +38,4 @@ _This web application allows two players to play a game of Pig Dice._
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2016 **_Albert Carlos Omware_**
+Copyright (c) 2018 **_Albert Carlos Omware_**
