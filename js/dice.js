@@ -95,7 +95,7 @@ btnHold.addEventListener('click', () => {
   scores[activePlayer] += roundScore;
   const currentPlayerHoldedScore = document.getElementById(`score${activePlayer}`);
   currentPlayerHoldedScore.textContent = scores[activePlayer];
-  if (scores[activePlayer] >= 100) {
+  if (scores[activePlayer] >= 50) {
     const currentPlayerName = document.getElementById(`name${activePlayer}`);
     currentPlayerName.textContent = 'Winner';
 
