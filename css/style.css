@@ -69,14 +69,14 @@ body {
     margin-bottom: 130px;
 }
 
-.is-active { background-color: #f7f7f7; }
+.is-active { background-color: #C0C0C0; }
 .is-active .player-name { font-weight: 300; }
 
 .is-active .player-name::after {
     content: "\2022";
     font-size: 47px;
     position: absolute;
-    color: #EB4D4D;
+    color: #62EB4D;
     top: -7px;
     right: 10px;
 
