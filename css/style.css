@@ -150,4 +150,4 @@ i {
 }
 
 .is-winner { background-color: #f7f7f7; }
-.is-winner .player-name { font-weight: 300; color: #EB4D4D; animation-name: Winner; animation-duration: 10s; animation-iteration-count: 3;}
+.is-winner .player-name { font-weight: 300; color: #EB4D4D;}

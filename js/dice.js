@@ -5,7 +5,7 @@ GAME RULES:
 - In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score
 - BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
 - The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
-- The first player to reach 100 points on GLOBAL score wins the game
+- The first player to reach 50 points on GLOBAL score wins the game
 
 */// Top Level Initial variables
 var scores, roundScore, activePlayer;
@@ -72,10 +72,10 @@ const init = () => {
 // Initialize it on page load!
 init();
 
-// Listener event (click) for New Game Button: Initialize it!
+// Listener event for the new game button by initialization on click.
 btnNew.addEventListener('click', init);
 
-// Listener event (click) for Roll Dice Button: Perform logic!
+// Listener event for the roll dice button
 btnRoll.addEventListener('click', () => {
   const diceValue = Math.floor(Math.random() * 6) + 1;
   const currentPlayerScore = document.getElementById(`current${activePlayer}`);
@@ -90,7 +90,7 @@ btnRoll.addEventListener('click', () => {
   }
 });
 
-// Listener event (click) for Hold Button: Perform logic!
+// Listener event for the hold button
 btnHold.addEventListener('click', () => {
   scores[activePlayer] += roundScore;
   const currentPlayerHoldedScore = document.getElementById(`score${activePlayer}`);
