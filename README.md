@@ -23,7 +23,7 @@ _This web application allows two players to play a game of Pig Dice._
 * _Open a HTML file_
 * _Open web browser of choice_
 
-![image]()
+![image](https://github.com/bertocarl/pig-dice/blob/master/images/pig-dice.png)
 ## Deployment
 To deploy the pages and view the uploaded changes of the index.html file we go to the original repository:https://bertocarl.github.io/pig-dice/
 
