@@ -23,7 +23,11 @@ _This web application allows two players to play a game of Pig Dice._
 * _Open a HTML file_
 * _Open web browser of choice_
 
-## Notes
+![image]()
+## Deployment
+To deploy the pages and view the uploaded changes of the index.html file we go to the original repository:https://bertocarl.github.io/pig-dice/
+
+-Click the environment link on the page and click the deployment to be able to view the changes on your browser of the uploaded work.
 
 
 ## Technologies Used
@@ -33,6 +37,11 @@ _This web application allows two players to play a game of Pig Dice._
 * _Bootstrap_
 * _JavaScript_
 * _jQuery_
+
+## Known Bugs
+There are no known bugs at the moment but kindly feel free to contact me via gmail : aomware@gmail.com
+## Support
+For support kindly find me on github with the following link: https://github.com/bertocarl/pig-dice and kindly feel free to share your contributions to the application and also modifying the code.
 
 ### License
 
