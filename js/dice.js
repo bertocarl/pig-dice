@@ -1,4 +1,4 @@
-*/// Top Level Initial variables
+* /// Top Level Initial variables
 var scores, roundScore, activePlayer;
 
 // Helper functions for grabbing multiple elements
@@ -75,8 +75,8 @@ btnRoll.addEventListener('click', () => {
     dice.src = `images/dice-${diceValue}.png`;
     roundScore += diceValue;
     currentPlayerScore.textContent = roundScore;
-  } else alert("Sorry the dice is 1");{
-      nextPlayer();
+  } else alert("Sorry the dice is 1"); {
+    nextPlayer();
   }
 });
 
