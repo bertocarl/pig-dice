@@ -1,12 +1,3 @@
-/*  PIG DICE GAME
-
-GAME RULES:
-- The game has 2 players, playing in rounds
-- In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score
-- BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
-- The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
-- The first player to reach 100 points on GLOBAL score wins the game
-
 */// Top Level Initial variables
 var scores, roundScore, activePlayer;
 
@@ -69,13 +60,12 @@ const init = () => {
   gamePlaying(true);
 };
 
-// Initialize it on page load!
 init();
 
-// Listener event (click) for New Game Button: Initialize it!
+// New Game Button
 btnNew.addEventListener('click', init);
 
-// Listener event (click) for Roll Dice Button: Perform logic!
+// Roll Dice Button
 btnRoll.addEventListener('click', () => {
   const diceValue = Math.floor(Math.random() * 6) + 1;
   const currentPlayerScore = document.getElementById(`current${activePlayer}`);
@@ -85,12 +75,12 @@ btnRoll.addEventListener('click', () => {
     dice.src = `images/dice-${diceValue}.png`;
     roundScore += diceValue;
     currentPlayerScore.textContent = roundScore;
-  } else {
-    nextPlayer();
+  } else alert("Sorry the dice is 1");{
+      nextPlayer();
   }
 });
 
-// Listener event (click) for Hold Button: Perform logic!
+// Hold Button
 btnHold.addEventListener('click', () => {
   scores[activePlayer] += roundScore;
   const currentPlayerHoldedScore = document.getElementById(`score${activePlayer}`);
