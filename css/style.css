@@ -75,7 +75,7 @@ body {
   right: 10px;
 }
 
-.player-current-box {
+.current-player-box {
   background-color: #EB4D4D;
   color: #fff;
   width: 40%;
@@ -84,15 +84,17 @@ body {
   text-align: center;
 }
 
-.player-current-label {
+.current-player-label {
   text-transform: uppercase;
   margin-bottom: 10px;
   font-size: 12px;
   color: #222;
 }
 
-.player-current-score {
-  font-size: 30px;
+.current-player-score {
+  font-size: 80px;
+  font-weight: 100;
+  color: #EB4D4D;
 }
 
 button {
@@ -146,24 +148,6 @@ i {
   top: 467px;
 }
 
-.dice {
-  display: none;
-  position: absolute;
-  left: 50%;
-  top: 178px;
-  transform: translateX(-50%);
-  height: 100px;
-  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
-}
-
 .is-winner {
   background-color: #f7f7f7;
-}
-
-.is-winner .player-name {
-  font-weight: 300;
-  color: #EB4D4D;
-  animation-name: Winner;
-  animation-duration: 10s;
-  animation-iteration-count: 3;
 }
