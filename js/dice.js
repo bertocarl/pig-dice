@@ -1,4 +1,4 @@
-var btnNew,btnHold,btnRoll,scrore1,score0,name0,name1,current0,current1,totalscore,roundscore
+var [scrore1,score0,current0,current1,totalscore,rndscore]=0
 // New game button
 $(document).ready(function() {
   $(".btnNew").click(function() {
@@ -9,4 +9,7 @@ $(".btnRoll").click(function() {
 // Hold the dice
 $(".btnHold").click(function() {
   hold ();
-function roll ()
+function roll () {
+
+
+}
